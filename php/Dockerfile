@@ -9,7 +9,7 @@ RUN mkdir -p /srv/php
 RUN echo "<?php echo 'hello\n';" > /srv/php/index.php
 
 # Set working directory.
-WORKDIR /srv/node
+WORKDIR /srv/php
 
 # Run app.
 CMD ["php", "/srv/php/index.php"]
