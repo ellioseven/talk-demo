@@ -14,6 +14,10 @@ docker build -t talk-demo-node ./node
 docker run node
 ```
 
+## Registries
+
+- https://hub.docker.com/r/ellioseven/node/
+
 ## `docker-compose.yml`
 
 ```
