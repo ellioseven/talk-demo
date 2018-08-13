@@ -5,12 +5,12 @@
 Building an image:
 
 ```
-docker build -t php ./php
+docker build -t talk-demo-php ./php
 docker run php
 ```
 
 ```
-docker build -t node ./node
+docker build -t talk-demo-node ./node
 docker run node
 ```
 
