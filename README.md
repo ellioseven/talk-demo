@@ -9,6 +9,11 @@ docker build -t php ./php
 docker run php
 ```
 
+```
+docker build -t node ./node
+docker run node
+```
+
 ## `docker-compose.yml`
 
 ```

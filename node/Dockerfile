@@ -16,5 +16,8 @@ RUN tar -xf /node-v8.11.3-linux-x64.tar.xz \
 RUN mkdir -p /srv/node
 RUN echo "console.log('hello')" > /srv/node/index.js
 
+# Set working directory.
+WORKDIR /srv/node
+
 # Run app.
 CMD ["node", "/srv/node/index.js"]
