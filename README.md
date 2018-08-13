@@ -14,3 +14,11 @@ docker run php
 ```
 docker-compose up
 ```
+
+## Sharing Docker Builds
+
+```
+git clone https://github.com/ellioseven/talk-demo
+cd talk-demo
+docker-compose up
+```
