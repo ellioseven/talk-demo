@@ -6,12 +6,20 @@ Building an image:
 
 ```
 docker build -t talk-demo-php ./php
-docker run php
+docker run --rm talk-demo-php
 ```
 
 ```
 docker build -t talk-demo-node ./node
-docker run node
+docker run --rm talk-demo-node
+```
+
+### Tags
+
+You can tag versions with:
+
+```
+docker tag talk-demo-node talk-demo-node:10
 ```
 
 ## Registries
